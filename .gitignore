@@ -1,0 +1,6 @@
+*.pyc
+*~
+.__pycache__
+resume_env
+db.sqlite3
+build

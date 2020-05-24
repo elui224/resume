@@ -1,0 +1,57 @@
+profile:
+  about: Data professional, interests in building and automating things.
+
+  contact:
+    phone: 207-441-2567
+    email: elui224@gmail.com
+    address: Boston, MA
+
+  other:
+    Full name: Eric Lui
+    Birthday: 1987-03-18
+    Nationality: US
+
+  interests:
+    - Basketball
+    - python
+    - Data visualization
+    - Cycling
+    - Fantasy Sports
+    - Snowboarding
+
+education:
+  University of Maryland:
+    - Master of Public Policy
+    - Public Policy
+    - 2013 - 2015
+  Wheaton College:
+    - Bachelor of Arts
+    - Economics and Mathematics
+    - 2005 - 2009
+
+experience:
+  athenahealth:
+    - Manager, Business Intelligence and Data Analytics
+    - 2018 - present
+    - Data engineering and data visualization
+  Association of American Medical Colleges (AAMC):
+    - Data Analyst
+    - 2015 - 2018
+    - Data management and building applications to automate recurring reports
+  Association of Colleges of Osteopathic Medicine:
+    - Data Analyst
+    - 2010 - 2015
+    - Data management and reporting
+  Department of Health and Human Services, State of Maine:
+    - Statistician I
+    - 2009 - 2010
+    - Maintain database of adult mental health clients
+
+skills:
+  general:
+    - SQL
+    - AWS
+    - git
+    - Tableau
+    - PowerBI
+    - Python
