@@ -10,13 +10,13 @@ with open('info.yml') as f:
 def main():
     return render_template('main.html', info=info)
 
-@app.route('/projects')
-def projects():
-    return render_template('projects.html', info=info)
+# @app.route('/projects')
+# def projects():
+#     return render_template('projects.html', info=info)
 
-@app.route('/about')
-def about():
-    return render_template('about.html', info=info)
+# @app.route('/about')
+# def about():
+#     return render_template('about.html', info=info)
 
 
 if __name__ == '__main__':
