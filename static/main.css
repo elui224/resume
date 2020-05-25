@@ -1,15 +1,15 @@
 body {
-  background-color: #3a4660;
+  /*background-color: #3a4660;*/
   margin-top: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h1 {
   margin-top: 20px;
   margin-bottom: 30px;
   font-family: Averta, sans-serif;
-  color: #fff;
+  /*color: #fff;*/
   font-size: 54px;
   line-height: 44px;
   font-weight: 700;
@@ -27,17 +27,18 @@ h2 {
 }
 
 p {
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   font-family: Averta, sans-serif;
-  color: #fff;
+  /*color: #fff;*/
   font-size: 15px;
   line-height: 30px;
 }
 
+
 a {
   -webkit-transition: border-color 200ms ease, color 200ms ease;
   transition: border-color 200ms ease, color 200ms ease;
-  color: #fff;
+  /*color: #fff;*/
   text-decoration: none;
 }
 
@@ -60,4 +61,107 @@ a:focus {
   padding-right: 25px;
   float: left;
   border-bottom: 0px none #000;
+}
+
+.main-wrapper .section {
+  margin-bottom: 30px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-style: italic;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+}
+
+
+progress {
+  display:inline-block;
+  width:250px;
+  height:20px;
+  padding:0 0 0 0;
+  margin:0;
+  text-align: left;
+  position:relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  float: left;
+}
+progress::-webkit-progress-bar {
+  height:15px;
+  width:210px;
+  margin:0 auto;
+  background-color: #CCC;
+}
+
+progress::-moz-progress-bar {
+  height:15px;
+  width:210px;
+  margin:0 auto;
+}
+
+
+progress::-webkit-progress-value {
+  display:inline-block;
+  float:left;
+  height:15px;
+  margin:0px -10px 0 0;
+  background: #F70;
+  box-shadow:0px 0px 6px #777 inset;
+}
+
+
+progress#progressBar:hover:after {
+    display: block;
+    content: attr(value);
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
 }

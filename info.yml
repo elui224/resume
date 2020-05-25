@@ -1,5 +1,5 @@
 profile:
-  about: Data professional, interests in building and automating things.
+  about: Data analytics manager at athenahealth. You can find me spending a lot of my free time learning, building, and automating things.
 
   contact:
     phone: 207-441-2567
@@ -8,50 +8,80 @@ profile:
 
   other:
     Full name: Eric Lui
-    Birthday: 1987-03-18
+    Birthday: March 18
     Nationality: US
+    Zodiac: Pisces
 
   interests:
+    - Web development
     - Basketball
-    - python
     - Data visualization
     - Cycling
     - Fantasy Sports
     - Snowboarding
+    - Traveling
 
-education:
+  social:
+    linkedin: https://www.linkedin.com/in/elui224/
+    github: https://github.com/elui224
+    facebook:
+    instagram:
+    twitter:
+
+education: # Enter education in this format. school, degree, concentration, time
   University of Maryland:
     - Master of Public Policy
     - Public Policy
     - 2013 - 2015
   Wheaton College:
     - Bachelor of Arts
-    - Economics and Mathematics
+    - Economics
     - 2005 - 2009
 
-experience:
+experience: # Enter experience in this format. Organization, title, time, job description, location, website
   athenahealth:
     - Manager, Business Intelligence and Data Analytics
     - 2018 - present
     - Data engineering and data visualization
+    - Watertown, MA
+    - https://www.athenahealth.com/
   Association of American Medical Colleges (AAMC):
     - Data Analyst
     - 2015 - 2018
     - Data management and building applications to automate recurring reports
-  Association of Colleges of Osteopathic Medicine:
-    - Data Analyst
-    - 2010 - 2015
+    - Washington DC
+    - https://www.aamc.org/
+  Association of Colleges of Osteopathic Medicine (AACOM):
+    - Research Analyst
+    - 2010 - 2013
     - Data management and reporting
+    - Washington DC
+    - https://www.aacom.org/
   Department of Health and Human Services, State of Maine:
     - Statistician I
     - 2009 - 2010
     - Maintain database of adult mental health clients
+    - Augusta, ME
+    - https://www.maine.gov/dhhs/
 
-skills:
-  general:
-    - SQL
-    - AWS
-    - git
-    - Tableau
-    - PowerBI
-    - Python
+skills: #Enter skills in this format. skill and proficiency level (0-100)
+  SQL:
+    - 95
+  Tableau:
+    - 90
+  Power BI:
+    - 85
+  git:
+    - 85
+  Python:
+    - 70
+  AWS:
+    - 60
+  Linux:
+    - 60
+
+projects:
+  fifasite:
+    title: Fifa web app
+    description: Django web application to record and visualize goals and assists of Fifa (a video game my friends and I play together).
+    link: http://thecolorfulguitar.pythonanywhere.com/
