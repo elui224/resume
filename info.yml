@@ -1,6 +1,8 @@
 profile:
   about: Data analytics manager at athenahealth. You can find me spending a lot of my free time learning, building, and automating things.
 
+  expertise: Data Analytics & Engineering
+
   contact:
     phone: 207-441-2567
     email: elui224@gmail.com
@@ -32,11 +34,11 @@ education: # Enter education in this format. school, degree, concentration, time
   University of Maryland:
     - Master of Public Policy
     - Health Policy
-    - 2013 - 2015
+    - May 2015
   Wheaton College:
     - Bachelor of Arts
     - Economics
-    - 2005 - 2009
+    - May 2009
 
 experience: # Enter experience in this format. Organization, title, time, job description, location, website
   athenahealth:

@@ -1,15 +1,12 @@
 body {
-  /*background-color: #3a4660;*/
   margin-top: 100px;
   margin-left: 20%;
   margin-right: 20%;
+  font-family: Averta, sans-serif;
 }
 
 h1 {
   margin-top: 20px;
-  margin-bottom: 30px;
-  font-family: Averta, sans-serif;
-  /*color: #fff;*/
   font-size: 54px;
   line-height: 44px;
   font-weight: 700;
@@ -18,7 +15,6 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: Averta, sans-serif;
   font-size: 22px;
   line-height: 36px;
   font-style: normal;
@@ -26,19 +22,19 @@ h2 {
   text-transform: uppercase;
 }
 
+h4.subtitle {
+  font-size: 22px;
+  color: #08C39A;
+}
+
 p {
-  /*margin-bottom: 10px;*/
-  font-family: Averta, sans-serif;
-  /*color: #fff;*/
   font-size: 15px;
-  line-height: 30px;
 }
 
 
 a {
   -webkit-transition: border-color 200ms ease, color 200ms ease;
   transition: border-color 200ms ease, color 200ms ease;
-  /*color: #fff;*/
   text-decoration: none;
 }
 
@@ -52,7 +48,11 @@ a:focus {
   color: #1d2330;
 }
 
-.content {
+.main-wrapper .intro {
+  margin-bottom: 30px;
+}
+
+.main-wrapper .content {
   margin-top: 10px;
 }
 
