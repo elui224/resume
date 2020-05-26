@@ -10,15 +10,14 @@
 <div id="main_container">
 	<div id="container">
 		<body>
-        <div><a href="/">Home</a> | <a href="/projects">Projects</a> | <a href="/about">About</a></div>
-        <hr>	
+<!--         <div><a href="/">Home</a> | <a href="/projects">Projects</a> | <a href="/about">About</a></div>
+        <hr>	 -->
 	    {% block content %} {% endblock %}
 
 	    </body>
 	</div>
 
 	<!-- Social media links -->
-
 	{% if info['profile']['social']['linkedin'] %}
 		<div class="social-icon">
 		  <a href="{{info['profile']['social']['linkedin']}}">
