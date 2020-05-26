@@ -28,7 +28,7 @@ h4.subtitle {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
@@ -54,6 +54,7 @@ a:focus {
 
 .main-wrapper .content {
   margin-top: 10px;
+  font-size: 14px;
 }
 
 .social-icon {
@@ -66,9 +67,11 @@ a:focus {
 
 .main-wrapper .section {
   margin-bottom: 30px;
+  font-size: 14px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
+  font-size: 14px;
 }
 .main-wrapper .upper-row {
   position: relative;
@@ -77,7 +80,7 @@ a:focus {
 }
 .main-wrapper .job-title {
   color: #3F4650;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
