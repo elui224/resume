@@ -1,5 +1,8 @@
 profile:
-  about: Data analytics manager at athenahealth. You can find me spending a lot of my free time learning, building, and automating things.
+  about: 
+    paragraph1: Hello! Currently a data analytics manager at athenahealth. At athena, I've learned a ton about data pipelines, building beautiful dashboards, and working with leadership.
+    paragraph2: My professional experience mainly has been focused in the healthcare space where one of my intellectual interests lie. Additionally, in this time, I've invested myself -- informally at work and at home-- in learning new technologies to improve workflows and simply for fun. Lately I've been thinking more about teaching colleagues and the impact of our work.
+    paragraph3: In my spare time, I like to ball, cycle, and beat up on Russ in the Fifa Lounge (a video game).
 
   expertise: Data Analytics & Engineering
 
