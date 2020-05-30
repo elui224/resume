@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
       <div id="homepage">
          <div class="container">
             <div class="small">
@@ -21,17 +21,19 @@
                </div>
                <div class="column">
                   <div class="left">
-                     <p>{{info['profile']['about']['paragraph1']}}</p>
-                     <p>{{info['profile']['about']['paragraph2']}}</p>
+                     <p class="paragraph-light">{{info['profile']['about']['paragraph1']}}</p>
+                     <p class="paragraph-light">{{info['profile']['about']['paragraph2']}}</p>
                      {% if info['profile']['about']['paragraph3'] %}
-                        <p>{{info['profile']['about']['paragraph3']}} Check the <a href="http://thecolorfulguitar.pythonanywhere.com/statistics/">stats</a>.</p>
+                        <p class="paragraph-light">{{info['profile']['about']['paragraph3']}} Check the <a href="http://thecolorfulguitar.pythonanywhere.com/statistics/">stats</a>.</p>
                      {% endif %}
-
+                    <div class="chart">
+                      <canvas id="myChart" width="100" height="125"></canvas>
+                    </div>
                   </div>
                   <div class="right">
                      <div class="resume">
                         <!--Experiences-->
-                        <div class="label">Experiences</div>
+                        <div class="label">Brief Timeline</div>
                         
                         <ul>
                            {% for key, value in info['experience'].items() %}
@@ -50,19 +52,6 @@
                            <li>
                               <div class="skill"><span>{{key}}</span>{%if value[0] %}<span><progress id="progressBar" max="100" value="{{value[0]}}" title="{{value[0]}}"></progress></span> {% endif %}
                               </div>
-                           </li>
-                           {% endfor %}
-                        </ul>
-
-                        <!--Education-->
-                        <div class="label">Education</div>
-                        
-                        <ul>
-                           {% for key, value in info['education'].items() %}
-                           <li>
-                              <div class="role">{{key}}</div>
-                              <div class="company">{{value[0]}}, {{value[1]}}</div>
-                              <div class="date">{{value[2]}}</div>
                            </li>
                            {% endfor %}
                         </ul>
@@ -113,9 +102,57 @@
                      </div>
                   {% endif %}
 
+                  <p>Be well.</p>
                   <p>Created May 2020</p>
 
             </div>
          </div>
       </div>
+  <script>
+    Chart.defaults.global.defaultFontFamily = "'Spectral', Garamond, Georgia, serif";
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var setBorderWidth = 1;
+    var chartTitle = 'On a given day...';
+    var chartSubtitle = '(daily cumulative)';
+    var chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm'],
+            datasets: [
+            {
+                  label: 'Coffee cups consumed',
+                  backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                  borderColor: 'rgba(255, 206, 86, 1)',
+                  borderWidth: setBorderWidth,
+                  data: [1, 2, 2, 2, 4, 4, 4, 4, 4]
+            },
+            {
+                  label: 'Ideal miles biked',
+                  backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                  borderColor: 'rgba(255,99,132,1)',
+                  borderWidth: setBorderWidth,
+                  data: [0, 0, 0, 0, 20, 25, 25, 25, 25]
+            },
+            {
+                  label: 'Pylons constructed',
+                  backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                  borderColor: 'rgba(54, 162, 235, 1)',
+                  borderWidth: setBorderWidth,
+                  data: [1, 1, 1, 1, 2, 2, 4, 4, 5]
+            },
+            ]
+
+        },
+
+        options: {
+          legend: {
+            position: 'bottom'
+          },
+          title: {
+            display: true,
+            text: [chartTitle, chartSubtitle]
+          }  
+        }
+    });
+  </script>
 {% endblock %}

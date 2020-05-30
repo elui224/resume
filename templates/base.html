@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
    <head>
+   	  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Spectral:200,800">
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Bio | {{info['profile']['other']['Full name']}}</title>
-      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="description" content="Check out Eric Lui's personal webpage. It includes a brief history of experiences similiar to what you might find in a resume / CV.">
+      <meta name="keywords" content="eric, lui, boston, ma">
+      <meta name=”robots” content=”index, nofollow”>
    </head>
    <body>
       {% block content %} {% endblock %}

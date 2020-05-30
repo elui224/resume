@@ -1,18 +1,18 @@
 profile:
-  about: 
-    paragraph1: Hello! Currently a data analytics manager at athenahealth. At athena, I've learned a ton about data pipelines, building beautiful dashboards, and working with leadership.
-    paragraph2: My professional experience mainly has been focused in the healthcare space where one of my intellectual interests lie. Additionally, in this time, I've invested myself -- informally at work and at home-- in learning new technologies to improve workflows and simply for fun. Lately I've been thinking more about teaching colleagues and the impact of our work.
-    paragraph3: In my spare time, I like to ball, cycle, and beat up on Russ in the Fifa Lounge (a video game).
+  about:  #Required
+    paragraph1: Hello! Currently a data analytics manager at athenahealth. At athena, I've become a key contributor in maintaining data pipelines, developing beautiful dashboards, and building trust with leadership.
+    paragraph2: My professional experience mainly has been focused in the healthcare space. Additionally, in the latter half of my career, I've invested myself -- informally at work and at home-- in learning new technologies to improve life and simply for fun.
+    paragraph3: In my spare time, I like to ball, cycle, and stunt on Russell in the Fifa Lounge (a video game).
 
-  expertise: Data Analytics & Engineering
+  expertise: Data Analytics & Engineering #Required
 
   contact:
-    phone: 207-441-2567
-    email: elui224@gmail.com
-    address: Boston, MA
+    phone: 207-441-2567 #Required
+    email: elui224@gmail.com #Required
+    address: Boston, MA #Required
 
   other:
-    Full name: Eric Lui
+    Full name: Eric Lui #Required
     Birthday: March 18
     Nationality: US
     Zodiac: Pisces
@@ -33,7 +33,7 @@ profile:
     instagram:
     twitter:
 
-education: # Enter education in this format. school, degree, concentration, time
+education: #Required. Enter education in this format. school, degree, concentration, time
   University of Maryland:
     - Master of Public Policy
     - Health Policy
@@ -43,7 +43,7 @@ education: # Enter education in this format. school, degree, concentration, time
     - Economics
     - May 2009
 
-experience: # Enter experience in this format. Organization, title, time, job description, location, website
+experience: #Required. Enter experience in this format. Organization, title, time, job description, location, website
   athenahealth:
     - Manager, Business Intelligence and Data Analytics
     - 2018 - present
@@ -56,6 +56,12 @@ experience: # Enter experience in this format. Organization, title, time, job de
     - Data management and building applications to automate recurring reports
     - Washington DC
     - https://www.aamc.org/
+  University of Maryland:
+    - Master of Public Policy
+    - 2013 - 2015
+    - Grad
+    - College Park MD
+    - https://spp.umd.edu/
   Association of Colleges of Osteopathic Medicine (AACOM):
     - Research Analyst
     - 2010 - 2013
@@ -68,8 +74,14 @@ experience: # Enter experience in this format. Organization, title, time, job de
     - Maintain database of adult mental health clients
     - Augusta, ME
     - https://www.maine.gov/dhhs/
+  Wheaton College:
+    - Bachelor of Arts, Economics
+    - 2005 - 2009
+    - Undergrad
+    - Norton MA
+    - https://www.wheatoncollege.edu/
 
-skills: #Enter skills in this format. skill and proficiency level (0-100)
+skills: #Required (level of proficiency not required). Enter skills in this format. skill and proficiency level (0-100)
   SQL:
     - 95
   Tableau:

@@ -1,5 +1,5 @@
 body {
-	font-family: Garamond, Georgia, serif;
+	font-family: 'Spectral', Garamond, Georgia, serif;
 	padding: 0;
 	background: #FFF;
 	color: #181A1B;
@@ -20,7 +20,7 @@ h2 {
 	font-size: 42px;
 	line-height: 1.2em;
 	padding: 20px 0;
-	font-weight: 100
+	font-weight: 100;
 }
 
 h3 {
@@ -30,6 +30,11 @@ h3 {
 
 h4 {
 	margin: 30px 0 20px 0;
+}
+
+p {
+	/*font-size: 1em;*/
+	line-height: 1.5em;
 }
 
 p {
@@ -87,6 +92,10 @@ ul {
 	display: inline-block;
 	padding-right: 30px;
 	box-sizing: border-box
+}
+
+.column .left .chart {
+	margin-top: 60px;
 }
 
 .column .right {
@@ -171,7 +180,7 @@ ul {
 
 #homepage .resume .date {
 	font-size: 0.9em;
-	color: rgba(34, 36, 39, 0.5)
+	color: rgba(127, 140, 141,1.0)
 }
 
 #homepage .resume .company {
