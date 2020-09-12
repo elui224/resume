@@ -96,7 +96,7 @@ skills: #Required (level of proficiency not required). Enter skills in this form
     - 70
   AWS:
     - 60
-  HTML, CSS, JavaScript:
+  Web Develop:
     - 60
 
 projects:
