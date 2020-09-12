@@ -1,8 +1,8 @@
 profile:
   about:  #Required
-    paragraph1: Hello! Currently a data analytics manager at athenahealth. At athena, I've become a key contributor in maintaining data pipelines, developing beautiful dashboards, and building trust with leadership.
-    paragraph2: My professional experience mainly has been focused in the healthcare space. Additionally, in the latter half of my career, I've invested myself -- informally at work and at home-- in learning new technologies to improve life and simply for fun.
-    paragraph3: In my spare time, I like to ball, cycle, and stunt on Russell in the Fifa Lounge (a video game).
+    paragraph1: Hello! Currently a data analytics manager at athenahealth, a tech platform boasting one of the richest data assets in the healthcare space. At athena, I curate data about interface operations / transactions (EDI) and help athena tell its story by creating data pipelines, developing beautiful dashboards, collaborating with cross-functional teams, and building trust with leadership.
+    paragraph2: My professional experience mainly has been focused in the healthcare. However, I've also invested time -- informally at work and at home-- to learn new technologies to improve life and simply for fun. I'm always looking to learn interesting things!
+    paragraph3: In my spare time, I like to ball, cycle, and stunt on friends in the Fifa Lounge (a video game).
 
   expertise: Data Analytics & Engineering #Required
 
@@ -92,9 +92,11 @@ skills: #Required (level of proficiency not required). Enter skills in this form
     - 85
   Python:
     - 70
+  Linux / UNIX:
+    - 70
   AWS:
     - 60
-  Linux:
+  HTML, CSS, JavaScript:
     - 60
 
 projects:
