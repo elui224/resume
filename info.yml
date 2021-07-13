@@ -1,6 +1,6 @@
 profile:
   about:  #Required
-    paragraph1: Hello! Currently a data analytics manager at athenahealth, a tech platform boasting one of the richest data assets in the healthcare space. At athena, I curate data about interface operations / transactions (EDI) and help athena tell its story by creating data pipelines, developing beautiful dashboards, collaborating with cross-functional teams, and building trust with leadership.
+    paragraph1: Hello! Currently a data scientist at Devoted Health, a data-driven "payvidor" powered by a modern tech and data stack. At Devoted, I curate data and provide analytics to help Devoted tell its story by creating data pipelines, collaborating with cross-functional teams, and building trust with leadership.
     paragraph2: My professional experience mainly has been focused in the healthcare. However, I've also invested time -- informally at work and at home-- to learn new technologies to improve life and simply for fun. I'm always looking to learn interesting things!
     paragraph3: In my spare time, I like to ball, cycle, and stunt on friends in the Fifa Lounge (a video game).
 
@@ -44,9 +44,15 @@ education: #Required. Enter education in this format. school, degree, concentrat
     - May 2009
 
 experience: #Required. Enter experience in this format. Organization, title, time, job description, location, website
+  Devoted Health:
+    - Senior Data Scientist
+    - 2021 - present
+    - Analytics engineering and data analytics
+    - Waltham, MA
+    - https://devoted.com/our-story
   athenahealth:
     - Manager, Business Intelligence and Data Analytics
-    - 2018 - present
+    - 2018 - 2021
     - Data engineering and data visualization
     - Watertown, MA
     - https://www.athenahealth.com/
@@ -98,6 +104,10 @@ skills: #Required (level of proficiency not required). Enter skills in this form
     - 60
   Web Develop:
     - 60
+  Airflow:
+    - 55
+  dbt:
+    - 55
 
 projects:
   fifasite:
