@@ -90,10 +90,6 @@ experience: #Required. Enter experience in this format. Organization, title, tim
 skills: #Required (level of proficiency not required). Enter skills in this format. skill and proficiency level (0-100)
   SQL:
     - 95
-  Tableau:
-    - 90
-  Power BI:
-    - 85
   git:
     - 85
   Python:
@@ -101,7 +97,7 @@ skills: #Required (level of proficiency not required). Enter skills in this form
   Linux / UNIX:
     - 70
   AWS:
-    - 60
+    - 50
   Web Develop:
     - 60
   Airflow:
