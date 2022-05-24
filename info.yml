@@ -51,7 +51,7 @@ experience: #Required. Enter experience in this format. Organization, title, tim
     - Waltham, MA
     - https://devoted.com/our-story
   athenahealth:
-    - Manager, Business Intelligence and Data Analytics
+    - Analytics Manager
     - 2018 - 2021
     - Data engineering and data visualization
     - Watertown, MA
@@ -103,7 +103,7 @@ skills: #Required (level of proficiency not required). Enter skills in this form
   Airflow:
     - 55
   dbt:
-    - 55
+    - 65
 
 projects:
   fifasite:
